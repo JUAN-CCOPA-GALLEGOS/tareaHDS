@@ -25,4 +25,4 @@ cout << " la solucion del sistema es";
 cout << " x = " << x << " y = " << y << endl;
 }
 return 0;
-}
+} // MODIFICAR EL EJERCICIO PARA EL CASO QUE SI EL RESULTADO DE "X" ES MAYOR QUE 2, EL RESULTADO DE "Y", DEBERA SER ELEVADO AL CUADRADO, CASO CONTRARIO SE LE RESTARA 2 AL ULTIMO VALOR DE "Y"
