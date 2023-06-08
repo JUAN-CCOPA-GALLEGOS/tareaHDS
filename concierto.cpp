@@ -42,7 +42,7 @@ int main() {
 
     if (ubicacion == 4) {
         cout << "Bebida seleccionada: " << bebida << endl;
-    }
+    } // MODIFIQUE EL EJERCICIO PARA EL CASO QUE SI LA SUMA DE LAS ENTRADAS "PREFERENCIALES" SUPERA LOS 400 SE LES DARA UN DESCUENTO DEL 20% EN LA SIGUIENTE FUNCION Y PODRAN ELEGIR ENTRE UNA AMBURGUESA Y SALCHIPAPA
 
     return 0;
 }
