@@ -4,19 +4,19 @@ using namespace std;
 int main() {
     double pies, yardas, pulgadas, centimetros, metros;
 
-    cout << "Ingrese la medida en pies: ";
-    cin >> pies;
+    cout << "Ingrese la medida en yardas: ";
+    cin >> yardas;
 
-    yardas = pies /3;
+    pies = yardas *3;
     pulgadas = pies * 12.0;
     centimetros = pulgadas * 2.54;
     metros = centimetros / 100.0;
 
-    cout << pies << " pies son equivalentes a:" << endl;
-    cout << yardas << " yardas" << endl;
+    cout << yardas << " yardas son equivalentes a:" << endl;
+    cout << pies << " pies" << endl;
     cout << pulgadas << " pulgadas" << endl;
     cout << centimetros << " centimetros" << endl;
     cout << metros << " metros" << endl;
 
     return 0;
-} // TRANSFORMAR YARDAS A PIES
+}
